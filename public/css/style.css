@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    gap: 100px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.generateForm {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.generateForm input {
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.generateForm button {
+    padding: 10px 5px;
+    border-radius: 15px;
+    width: 150px;
+    background-color: rgb(233, 233, 255);
+}
